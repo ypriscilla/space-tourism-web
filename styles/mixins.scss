@@ -1,0 +1,17 @@
+@mixin mq-tablet {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mq-1024 {
+  @media only screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin mq-small {
+  @media only screen and (max-width: 376px) {
+    @content;
+  }
+}

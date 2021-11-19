@@ -1,102 +1,34 @@
-space-tourism-website-main/space-tourism-website-main/starter-code/technology-vehicle.html
-space-tourism-website-main/space-tourism-website-main/starter-code/technology-spaceport.html
-space-tourism-website-main/space-tourism-website-main/starter-code/technology-capsule.html
-space-tourism-website-main/space-tourism-website-main/starter-code/index.html
-space-tourism-website-main/space-tourism-website-main/starter-code/destination-titan.html
-space-tourism-website-main/space-tourism-website-main/starter-code/destination-moon.html
-space-tourism-website-main/space-tourism-website-main/starter-code/destination-mars.html
-space-tourism-website-main/space-tourism-website-main/starter-code/destination-europa.html
-space-tourism-website-main/space-tourism-website-main/starter-code/data.json
-space-tourism-website-main/space-tourism-website-main/starter-code/crew-specialist.html
-space-tourism-website-main/space-tourism-website-main/starter-code/crew-pilot.html
-space-tourism-website-main/space-tourism-website-main/starter-code/crew-engineer.html
-space-tourism-website-main/space-tourism-website-main/starter-code/crew-commander.html
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/image-spaceport-portrait.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/image-spaceport-landscape.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/image-space-capsule-portrait.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/image-space-capsule-landscape.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/image-launch-vehicle-portrait.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/image-launch-vehicle-landscape.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-tablet.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-mobile.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/shared/logo.svg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/shared/icon-hamburger.svg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/shared/icon-close.svg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/home/background-home-tablet.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/favicon-32x32.png
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/image-titan.webp
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/image-titan.png
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/image-moon.webp
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/image-moon.png
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/image-mars.webp
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/image-mars.png
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/image-europa.webp
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/image-europa.png
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/background-destination-tablet.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/background-destination-mobile.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/image-victor-glover.webp
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/image-victor-glover.png
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/image-mark-shuttleworth.webp
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/image-mark-shuttleworth.png
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/image-douglas-hurley.webp
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/image-douglas-hurley.png
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/image-anousheh-ansari.webp
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/image-anousheh-ansari.png
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/background-crew-tablet.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg
-space-tourism-website-main/space-tourism-website-main/starter-code/.gitignore
-space-tourism-website-main/space-tourism-website-main/preview.jpg
-space-tourism-website-main/space-tourism-website-main/README.md
-space-tourism-website-main/space-tourism-website-main/README-template.md
-space-tourism-website-main/space-tourism-website-main/.gitignore
-space-tourism-website-figma/space-tourism-website-figma/space-tourism-website.fig
-space-tourism-website-figma/space-tourism-website-figma/README.md
-space-tourism-website-figma/__MACOSX/space-tourism-website-figma/._space-tourism-website.fig
-space-tourism-website-figma/__MACOSX/space-tourism-website-figma/._README.md
-space-tourism-website-fig/Tablet - Technology - C.png
-space-tourism-website-fig/Tablet - Technology - B.png
-space-tourism-website-fig/Tablet - Technology - A.png
-space-tourism-website-fig/Tablet - Home.png
-space-tourism-website-fig/Tablet - Destination - D.png
-space-tourism-website-fig/Tablet - Destination - C.png
-space-tourism-website-fig/Tablet - Destination - B.png
-space-tourism-website-fig/Tablet - Destination - A.png
-space-tourism-website-fig/Tablet - Crew - D.png
-space-tourism-website-fig/Tablet - Crew - C.png
-space-tourism-website-fig/Tablet - Crew - B.png
-space-tourism-website-fig/Tablet - Crew - A.png
-space-tourism-website-fig/Mobile - Technology - C.png
-space-tourism-website-fig/Mobile - Technology - B.png
-space-tourism-website-fig/Mobile - Technology - A.png
-space-tourism-website-fig/Mobile - Menu.png
-space-tourism-website-fig/Mobile - Home.png
-space-tourism-website-fig/Mobile - Destination - D.png
-space-tourism-website-fig/Mobile - Destination - C.png
-space-tourism-website-fig/Mobile - Destination - B.png
-space-tourism-website-fig/Mobile - Destination - A.png
-space-tourism-website-fig/Mobile - Crew - D.png
-space-tourism-website-fig/Mobile - Crew - C.png
-space-tourism-website-fig/Mobile - Crew - B.png
-space-tourism-website-fig/Mobile - Crew - A.png
-space-tourism-website-fig/Desktop - Technology - C.png
-space-tourism-website-fig/Desktop - Technology - B.png
-space-tourism-website-fig/Desktop - Technology - Active.png
-space-tourism-website-fig/Desktop - Technology - A.png
-space-tourism-website-fig/Desktop - Home.png
-space-tourism-website-fig/Desktop - Home - Active.png
-space-tourism-website-fig/Desktop - Destination - D.png
-space-tourism-website-fig/Desktop - Destination - C.png
-space-tourism-website-fig/Desktop - Destination - B.png
-space-tourism-website-fig/Desktop - Destination - Active.png
-space-tourism-website-fig/Desktop - Destination - A.png
-space-tourism-website-fig/Desktop - Crew - Active.png
-space-tourism-website-fig/Desktop - Crew - A.png
-space-tourism-website-fig/Desktop - Crew -  D.png
-space-tourism-website-fig/Desktop - Crew -  C.png
-space-tourism-website-fig/Desktop - Crew -  B.png
-space-tourism-website-fig/Design System.png
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+space-tourism-website-figma/
+space-tourism-website-main/
+space-tourism-website-fig/

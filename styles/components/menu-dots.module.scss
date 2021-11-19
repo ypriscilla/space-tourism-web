@@ -1,0 +1,27 @@
+// @import "../mixins";
+.menu__dots__container {
+  @apply flex flex-row justify-start;
+  position: absolute;
+  bottom: 5vh;
+
+  @include mq-tablet {
+    position: static;
+    margin: 1rem auto;
+    width: fit-content;
+  }
+  .dot {
+    width: 0.7rem;
+    height: 0.7rem;
+
+    @apply rounded-full bg-gray-300 cursor-pointer;
+
+    &.active,
+    &:hover {
+      @apply bg-white;
+    }
+
+    &:not(:last-child) {
+      @apply mr-3;
+    }
+  }
+}

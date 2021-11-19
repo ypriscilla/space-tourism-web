@@ -1,0 +1,39 @@
+@import "../mixins";
+
+.destination {
+  h1 {
+    @apply py-2;
+  }
+  .body {
+    @apply py-2;
+  }
+
+  &__divider {
+    height: 1px;
+    background: white;
+
+    @apply my-10 w-full static;
+
+    @include mq-tablet {
+      display: block !important;
+    }
+  }
+
+  &__content {
+    @include mq-tablet {
+      text-align: center;
+      width: 75vw;
+      margin: auto;
+    }
+  }
+
+  .menu__container .menu__list__container.insidepage {
+    @include mq-tablet {
+      justify-content: center;
+    }
+  }
+
+  &__details {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}

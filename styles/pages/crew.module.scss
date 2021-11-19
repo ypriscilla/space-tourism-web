@@ -1,0 +1,33 @@
+@import "../mixins";
+
+.crew {
+  h1 {
+    @apply py-2;
+  }
+  .body {
+    @apply py-2;
+  }
+
+  &__content {
+    height: -webkit-fill-available;
+  }
+
+  &__image {
+    position: absolute;
+    bottom: 0px;
+    right: 5vw;
+    max-width: 300px;
+
+    @include mq-tablet {
+      position: relative;
+      right: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    @include mq-small {
+      width: 100%;
+      max-width: none;
+    }
+  }
+}

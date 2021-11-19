@@ -1,0 +1,23 @@
+@import "../mixins";
+.menu__circles__container {
+  @apply grid gap-12 items-center justify-center grid-cols-1 w-max;
+
+  @include mq-tablet {
+    @apply grid-cols-3;
+  }
+
+  .circle {
+    @apply flex items-center justify-center h-16 w-16 border-white border-solid border text-white cursor-pointer transition-all duration-700;
+
+    border-radius: 50%;
+
+    &.active,
+    &:hover {
+      @apply bg-white text-black;
+    }
+
+    @include mq-tablet {
+      @apply h-12 w-12;
+    }
+  }
+}

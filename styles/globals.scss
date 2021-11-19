@@ -1,0 +1,142 @@
+@import "./components/menu.module.scss";
+@import "./components/menu-dots.module.scss";
+@import "./components/menu-circles.module.scss";
+@import "./pages/destination.module.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Bellefair";
+  src: url("../fonts/Bellefair/Bellefair-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../fonts/barlow-condensed/BarlowCondensed-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow/Barlow-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+  h1 {
+    @apply text-h1 font-Bellefair uppercase text-white;
+
+    @include mq-tablet {
+      @apply text-7xl;
+    }
+  }
+  h2 {
+    @apply text-h2 font-Bellefair;
+  }
+  h3 {
+    @apply text-h3 font-Bellefair;
+  }
+  h4 {
+    @apply text-h4 font-Bellefair;
+  }
+  h5 {
+    @apply text-base font-BarlowCondensed tracking-h5 uppercase text-white;
+  }
+  .subh1 {
+    @apply text-xl font-Bellefair;
+  }
+  .subh2 {
+    @apply text-subh2 font-Bellefair tracking-subh2;
+  }
+  .body {
+    @apply text-body text-justify text-white font-Barlow;
+  }
+}
+
+@layer components {
+  .layout {
+    min-height: 100vh;
+    height: auto;
+    @include mq-small {
+      height: auto;
+    }
+
+    &.home {
+      height: 100vh;
+    }
+
+    .divider {
+      height: 1px;
+      width: 27vw;
+      position: absolute;
+      background: white;
+      left: 9.5vw;
+      z-index: 1;
+
+      @include mq-tablet {
+        display: none;
+      }
+    }
+
+    &__header {
+      @apply w-full flex justify-between items-center;
+    }
+    &__body {
+      position: relative;
+      width: 80vw;
+      max-width: 1440px;
+      @apply m-auto;
+
+      &.home,
+      &.technology {
+        height: calc(100vh - 154px);
+      }
+
+      &.destination {
+        padding-bottom: 6vh;
+      }
+
+      &.crew {
+        height: auto;
+      }
+
+      &.technology {
+        min-height: 500px;
+        position: static;
+      }
+
+      &.crew {
+        position: static;
+      }
+
+      h5 {
+        @apply mb-12;
+      }
+
+      @include mq-tablet {
+        &.home {
+          height: calc(100vh - 126px);
+        }
+        &.technology,
+        &.crew {
+          height: auto;
+        }
+        width: 90vw;
+      }
+
+      @include mq-small {
+        &.home,
+        &.crew,
+        &.technology {
+          height: auto;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import "../mixins";
+
+.home {
+  @include mq-tablet {
+    &__content {
+      transform: translateY(-50%);
+    }
+  }
+
+  @include mq-small {
+    &__content {
+      position: static;
+      transform: none;
+    }
+  }
+
+  &__explore {
+    &:after {
+      content: "";
+      width: 20rem;
+      height: 20rem;
+      background-color: white;
+      position: absolute;
+      opacity: 0;
+      border-radius: 50%;
+      transition: all 500ms ease-in-out;
+
+      @include mq-tablet {
+        width: 15.5rem;
+        height: 15.5rem;
+      }
+    }
+
+    &:hover:after {
+      opacity: 0.1;
+    }
+  }
+}

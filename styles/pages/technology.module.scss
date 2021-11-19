@@ -1,0 +1,60 @@
+@import "../mixins";
+
+.technology {
+  &__content__words {
+    @include mq-tablet {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 4vh;
+    }
+  }
+  &__content {
+    height: 65vh;
+
+    @include mq-tablet {
+      height: auto;
+      flex-direction: column-reverse;
+      padding-bottom: 6vh;
+    }
+  }
+  &__details {
+    width: 40vw;
+    margin-left: 2rem;
+
+    h5 {
+      margin-bottom: 1rem;
+    }
+
+    @include mq-tablet {
+      margin: 0;
+      width: 80vw;
+      margin-top: 1rem;
+      text-align: center;
+
+      h3 {
+        font-size: 3rem;
+      }
+    }
+  }
+  &__image {
+    position: absolute;
+    right: 0;
+    top: 70%;
+    transform: translateY(-50%);
+
+    width: 34vw;
+    max-width: 400px;
+
+    @include mq-tablet {
+      width: 100vw;
+      height: 20vh;
+      transform: none;
+      position: static;
+      max-width: none;
+      overflow: hidden;
+      img {
+        width: 100vw !important;
+      }
+    }
+  }
+}
